@@ -1,0 +1,11 @@
+[08-27 01:21:15,101, 634] main.Main Starting at http://127.0.0.1:8080
+[08-27 01:21:15,102, 635] main.Main Server started
+[08-27 01:21:15,157, 690] chat.WebSocketChatServlet WebSocketChatServlet.constructor
+[08-27 01:21:15,157, 690] chat.ChatService ChatService.constructor
+[08-27 01:21:15,285, 818] chat.WebSocketChatServlet WebSocketChatServlet.configure(WebSocketServletFactory factory)
+[08-27 01:21:15,854, 1387] chat.ChatWebSocket ChatWebSocket.constructor
+[08-27 01:21:15,895, 1428] chat.ChatWebSocket ChatWebSocket.onOpen(Session session)
+[08-27 01:21:15,896, 1429] chat.ChatService ChatService.add(ChatWebSocket webSocket)
+[08-27 01:21:15,916, 1449] chat.ChatWebSocket ChatWebSocket.onMessage(String data)
+[08-27 01:21:15,916, 1449] chat.ChatService ChatService.sendMessage(String data)
+[08-27 01:21:15,916, 1449] chat.ChatWebSocket ChatWebSocket.sendString(String data)
